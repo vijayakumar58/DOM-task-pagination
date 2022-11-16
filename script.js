@@ -501,13 +501,13 @@ var listitems =[
     }
 ];
 
-listitems.forEach((element) => {
-        $("#body").append(`
-     <tr>
-        <td>${element.id}</td>
-        <td>${element.name}</td>
-        <td>${element.email}</td>
-    </tr>
-    `);
- }
-);
+var table_body=document.getElementById('tablebody')
+table_body.innerHTML= `<th scope="row">${row}</th>
+                      <tr>
+                          <td>${element.id}</td>
+                          <td>${element.name}</td>
+                          <td>${element.email}</td>
+                      </tr>`
+    
+ 
+
