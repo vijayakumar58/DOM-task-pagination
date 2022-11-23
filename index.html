@@ -12,31 +12,28 @@
 </head>
 
 <body>
+    <div class="container-fluid">
+        <nav class="navbar navbar-light bg-info" id="title">
+            <h1 id="title">COUSTOMER DETAILS</h1>
+        </nav> 
+        <div class="tableDemo">
+          <table class="table" id="list">
+            <thead class="thead-dark">
+              <tr>
+                <th scope="col">Id</th>
+                <th scope="col">Name</th>
+                <th scope="col">Email Id</th>
+              </tr>
+            </thead>
+         </table>
+         <nav class="navbar navbar-dark bg-primary" id="navpage">
+            <ul class="pagination">
+              <li class="page-item" id="pagination"></li>
+             </ul>
+         </nav>
+        </div>
+    </div>
    <script src="./script.js"></script>
-   <header>
-    <h1 class="head">pagination content</h1>
-   </header>
-    <hr>
-    <table class="table">
-        <thead>
-          <tr>
-            <th scope="col">#</th>
-            <th scope="col">ID</th>
-            <th scope="col">Name</th>
-            <th scope="col">Email</th>
-          </tr>
-        </thead>
-        <tbody id="tablebody">
-          
-        </tbody>
-      </table>
-   <nav aria-label="blog pagination" class="my-10">
-    <ul class="pagination pagination-lg">
-        <li class="page-item active">
-            <a href="#" class="page-link">1</a>
-        </li>
-    </ul>
-   </nav>
 </body>
 
 </html>

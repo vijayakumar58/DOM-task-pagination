@@ -1,12 +1,13 @@
-.head{
-    text-align: center;
+#title{
+    display: flex;
+    justify-content: center;
 }
-.box{
-    border-bottom: 2px solid black;
-    margin: 20px 50px;
-    height: 450px;
-    width: 1150px;
+#pagination{
+    display: flex;
+    margin-top: 10px;
+    font-size: 20px;
 }
-.pagination{
-    justify-content: center ;
+#navpage{
+    display: flex;
+    justify-content: center;
 }
